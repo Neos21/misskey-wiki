@@ -37,7 +37,7 @@
 :root[data-theme="dark"] {
   --unified-colour-base                   : #ffffff;
   --unified-colour-background             : #001020;
-  --unified-colour-h2-border              : #1976d2;
+  --unified-colour-h2-border              : #ff0099;
   --unified-colour-h2-base                : #1f8cf9;
   --unified-colour-h3-border              : #adb5bd;
   --unified-colour-h3-base                : #adb5bd;
@@ -56,7 +56,7 @@
   --unified-colour-code-border            : #6c757d;
   --unified-colour-code-base              : #ff0099;
   --unified-colour-code-background        : #343a40;
-  --unified-colour-menu-background        : #101920;
+  --unified-colour-menu-background        : #102030;
   --unified-colour-header-link-base       : rgba(200, 200, 200, .3);
   --unified-colour-header-link-hover      : rgba(200, 200, 200, .6);
   --unified-colour-header-link-focus      : rgba(200, 200, 200, .9);
@@ -70,7 +70,7 @@
   :root {
     --unified-colour-base                   : #ffffff;
     --unified-colour-background             : #001020;
-    --unified-colour-h2-border              : #1976d2;
+    --unified-colour-h2-border              : #ff0099;
     --unified-colour-h2-base                : #1f8cf9;
     --unified-colour-h3-border              : #adb5bd;
     --unified-colour-h3-base                : #adb5bd;
@@ -89,7 +89,7 @@
     --unified-colour-code-border            : #6c757d;
     --unified-colour-code-base              : #ff0099;
     --unified-colour-code-background        : #343a40;
-    --unified-colour-menu-background        : #101920;
+    --unified-colour-menu-background        : #102030;
     --unified-colour-header-link-base       : rgba(200, 200, 200, .3);
     --unified-colour-header-link-hover      : rgba(200, 200, 200, .6);
     --unified-colour-header-link-focus      : rgba(200, 200, 200, .9);
