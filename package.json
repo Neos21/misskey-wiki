@@ -1,0 +1,29 @@
+{
+  "name": "misskey-wiki",
+  "description": "ねゃおすきー Wiki",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev --live-reload",
+    "list-tables": "wrangler d1 execute neos21-misskey --command='PRAGMA table_list' --remote",
+    "download-wrangler-toml": "wrangler pages download config neos21-misskey",
+    "wrangler": "wrangler"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/misskey-wiki#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/misskey-wiki.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/misskey-wiki/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
+  "devDependencies": {
+    "wrangler": "3.78.3"
+  }
+}

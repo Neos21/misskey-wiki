@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ねゃおすきー Wiki - Admin</title>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts-init.js"></script>
+    <script type="module" src="./scripts-module.js"></script>
+  </head>
+  <body>
+
+<button type="button" id="unified-toggle-menu" accesskey="m">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+<button type="button" id="unified-menu-background" accesskey="c"><span>Close Menu</span></button>
+
+<div id="unified-wrapper">
+  <div id="unified-menu">
+    <div id="unified-menu-container">
+      <button type="button" id="unified-toggle-theme" accesskey="t">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23">
+          <path fill="#888888" d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,20.5 L12,3.5 C16.6944204,3.5 20.5,7.30557963 20.5,12 C20.5,16.6944204 16.6944204,20.5 12,20.5 Z"/>
+        </svg>
+      </button>
+      
+      <a href="./" id="unified-go-to">!</a>
+      
+      <h2>Credential</h2>
+      <p><input type="password" id="unified-admin-credential" value="" placeholder="Credential"></p>
+      
+      <h2>New Page</h2>
+      <p>
+        <input type="text" id="unified-admin-new-url" value="" placeholder="URL">
+        <input type="text" id="unified-admin-new-title" value="" placeholder="Title">
+        <button type="button" id="unified-admin-create">Create</button>
+      </p>
+      
+      <h2>Edit Pages</h2>
+      <p>
+        <button type="button" id="unified-admin-page-titles-reload">Reload</button>
+      </p>
+      <div id="unified-admin-page-titles">
+        Loading...
+      </div>
+    </div>
+  </div>
+  <div id="unified-contents">
+    <div id="unified-admin-init-container">
+      <h1>Admin</h1>
+    </div>
+    
+    <div id="unified-admin-loading-container">
+      Loading...
+    </div>
+    
+    <div id="unified-admin-edit-container">
+      <div>
+        <h1>Edit Page</h1>
+        <div><button type="button" id="unified-admin-delete">Delete</button></div>
+      </div>
+      <div>
+        <input type="text" id="unified-admin-edit-url" readonly value="" placeholder="URL">
+        <button type="button" id="unified-admin-edit">Edit</button>
+      </div>
+      <input type="text" id="unified-admin-edit-title" value="" placeholder="Title">
+      <textarea id="unified-admin-edit-markdown"></textarea>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>
