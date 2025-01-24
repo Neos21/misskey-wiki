@@ -212,11 +212,9 @@ if(pageTitlesElement) {
     fetchPage(url);
   });
   
-  const initUrl = new URL(location.href).searchParams.get('u');
-  if(initUrl) {
-    console.log('Init : Start Fetch Page');
-    fetchPage(initUrl);
-  }
+  const initUrl = new URL(location.href).searchParams.get('u') ?? '';
+  console.log('Init : Start Fetch Page');
+  fetchPage(initUrl);
 }
 
 
