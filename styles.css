@@ -565,7 +565,7 @@ html[data-menu="show"] #unified-menu {
   margin-top: 0;
 }
 
-#unified-loading-container,
+#unified-init-container,
 #unified-content-container {
   display: none;
 }
